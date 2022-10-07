@@ -19,7 +19,8 @@ const Template: StoryFn = (props) => (
 
 export const solid = Template.bind({});
 solid.args = {
-  background: "red"
+  background: "yellow",
+  fontSize: "24px",
 };
 solid.parameters = {
   design: {

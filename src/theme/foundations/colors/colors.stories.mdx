@@ -1,0 +1,65 @@
+
+import { Meta, ColorPalette, ColorItem } from '@storybook/addon-docs';
+import  colors  from './colors.theme.ts';
+
+<Meta title="Paleta de cores" />
+
+## Paleta de cores
+
+<ColorPalette>
+  <ColorItem
+    title="Primária"
+    subtitle="primary"
+    colors={colors.primary}
+  />
+  <ColorItem
+    title="Secundária"
+    subtitle="secondary"
+    colors={colors.secondary}
+  />
+  <ColorItem
+    title="Terciário"
+    subtitle="tertiary"
+    colors={colors.tertiary}
+  />
+  <ColorItem
+    title="Neutros"
+    subtitle="neutrals"
+    colors={colors.neutrals}
+  />
+</ColorPalette>
+
+## Suporte
+
+<ColorPalette>
+  <ColorItem
+    title="Erros"
+    subtitle="error"
+    colors={colors.error}
+  />
+  <ColorItem
+    title="Alerta"
+    subtitle="warning"
+    colors={colors.warning}
+  />
+  <ColorItem
+    title="Sucesso"
+    subtitle="success"
+    colors={colors.success}
+  />
+  <ColorItem
+    title="Informação"
+    subtitle="info"
+    colors={colors.info}
+  />
+</ColorPalette>
+
+## Gradiente
+
+<ColorPalette>
+  <ColorItem
+    title="Erros"
+    subtitle="gradients"
+    colors={colors.gradients}
+  />
+</ColorPalette>

@@ -19,13 +19,13 @@ const Template: StoryFn = (props) => (
 
 export const solid = Template.bind({});
 solid.args = {
-  fontSize: "12px",
+  fontSize: "30px",
   variant: "solid",
 };
 solid.parameters = {
   design: {
     type: "figma",
-    url: "https://www.figma.com/file/sBWvJ7n0HNgs00OSfmmdYG/Untitled?node-id=1%3A6638",
+    url: "https://www.figma.com/file/HmdTC2vPomNR6MLSvikKml/Untitled?node-id=1%3A3",
   },
 };
 

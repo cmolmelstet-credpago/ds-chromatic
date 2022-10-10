@@ -30,6 +30,7 @@
     "storybook": "start-storybook -p 8080 -s public --no-open",
     "build-storybook": "build-storybook -s public",
     "chromatic": "npx chromatic --project-token=49af56745444"
+    
   },
   "eslintConfig": {
     "extends": "react-app",
